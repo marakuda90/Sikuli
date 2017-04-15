@@ -1,0 +1,49 @@
+installation
+1. 
+	You must have a valid Java installation of at least Java 7
+		Do I have Java on my machine? 
+		On a command line entering
+			java -version
+		should yield an output similar to that:
+			java version "1.7.0_45"
+			Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
+			Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
+
+			if you don`t have this message go to http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html for download and install JDK
+1.1
+	Download sikulixsetup.jar https://launchpad.net/sikuli/sikulix/1.1.1
+1.2
+	Set up sikulixsetup.jar 
+	Double clicking sikulixsetup....jar should start the setup.
+	(if double-clicking does not work, you can try on a command line: 
+	java -jar sikulixsetup....jar or
+	java -cp sikulixsetup....jar org.sikuli.setup.RunSetup)
+	choose Pack 1 or 2 
+	Notice
+		Sikuli will install all components to the folder where .jar file is
+1.3
+	To start the SikuliX IDE, you have the following options:
+	start the respective application (on Mac: Sikulix.app, on Windows (if available): Sikulix.exe)
+	double click sikulix.jar (on Linux you might need to switch on the executable bit)
+	use runsikulix(.cmd) optionally with parameters on a command line
+	special on Mac commandline: open /Applications/SikuliX.app
+	use java -jar path-to-sikulix.jar optionally with parameters on a command line
+
+	http://sikulix.com/quickstart/
+
+Set up Photoshop and Specctr
+2. 
+	Open photoshop
+2.1 
+	Open files Sikuli template.psd , Sikuli shape spec.psd to get them into recently open files. (Do not change .psd 
+		files)
+2.2 
+	Open Specctr, make sure it's not on photoshop canvas. (See position.jpg)
+
+Set Up and start Sikuli IDE
+3. 
+	Launch Sikuli IDe
+3.1 
+	Open folders Photoshop.sikuli , shape spec.sikuli
+3.2
+	 Run script (Make sure you have open Photoshop and Specctr)
